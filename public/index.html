@@ -9,18 +9,24 @@
     <body class="bg-gray-100">
         <!-- Header Section -->
         <header class="bg-white py-4 shadow-sm">
-            <div class="container mx-auto flex justify-between items-center px-4 md:px-8">
-                <div class="flex items-center space-x-2">
+            <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-8">
+                <!-- Left Section: Logo, Title, and Tagline -->
+                <div class="flex flex-col items-center md:flex-row md:space-x-2">
                     <img src="https://img.freepik.com/premium-vector/red-orange-abstract-round-target-logo-icon_95164-3858.jpg?w=740"
                         alt="Logo" class="w-10 h-10">
-                    <h1 class="text-xl font-bold text-red-600">Target</h1>
-                    <p class="text-gray-900 text-sm pl-2">Premium landing page template</p>
+                    <div class="text-center md:text-left">
+                        <h1 class="text-xl font-bold text-red-600">Target</h1>
+                        <p class="text-gray-900 text-sm">Premium landing page template</p>
+                    </div>
                 </div>
-                <div class="hidden md:block">
-                    <p class="text-red-500 font-semibold">Call Now! 1-800-123-456</p>
+        
+                <!-- Right Section: Call Now (Responsive for mobile) -->
+                <div class="mt-4 md:mt-0">
+                    <p class="text-red-500 font-semibold text-center md:text-left">Call Now! 1-800-123-456</p>
                 </div>
             </div>
         </header>
+
 
     
         <!-- Main Banner Section -->
@@ -260,95 +266,95 @@
         </section>
     
     
-        <!-- Footer Section -->
-        <footer class="bg-black text-gray-400 py-12">
-            <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4 md:px-8">
-                <!-- Payment Method -->
-                <div>
-                    <h4 class="text-white font-bold mb-4">Payment method</h4>
-                    <p class="text-gray-400">
-                        Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
-                        coalescent lingues.
-                    </p>
-                    <div class="flex space-x-2 mt-4">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/330px-Mastercard-logo.svg.png"
-                            alt="Visa" class="max-w-[40px] max-h-[20px]">
-                        <img src="https://banner2.cleanpng.com/20180330/pfw/avifhtfrn.webp" alt="Mastercard"
-                            class="max-w-[40px] max-h-[20px]">
-                        <img src="https://canhme.com/wp-content/uploads/2016/01/Paypal.png" alt="PayPal"
-                            class="max-w-[40px] max-h-[20px]">
-                    </div>
-    
-                </div>
-    
-                <!-- Get in Touch -->
-                <div>
-                    <h4 class="text-white font-bold mb-4">Get in touch</h4>
-                    <p>123 Main Street #3</p>
-                    <p>San Francisco, CA 94101</p>
-                    <p>Phone: (866) 123-4567 ext#1</p>
-                    <p>FAX: (866) 123-0000</p>
-                    <p>Email: webdesign@sheggy.pl</p>
-                </div>
-    
-                <!-- Design Details -->
-                <div>
-                    <h4 class="text-white font-bold mb-4">Design details</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                        laoreet dolore.</p>
-                </div>
-    
-                <!-- Target Logo Section -->
-                <div class="flex items-center justify-end mb-32">
-                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRq6VqxKZpE2vh6fCDwsAWMZUjYpo4prS-959JNW88lgqCooOWP"
-                        alt="Target Logo" class="w-10 h-10 mr-2">
-                    <div>
-                        <span class="font-bold text-white text-xl">Target</span>
-                    </div>
+    <!-- Footer Section -->
+    <footer class="bg-black text-gray-400 py-12">
+        <!-- Upper Footer Section -->
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-8">
+            <!-- Payment Method -->
+            <div>
+                <h4 class="text-white font-bold mb-4">Payment method</h4>
+                <p class="text-gray-400">
+                    Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
+                    coalescent lingues.
+                </p>
+                <div class="flex space-x-2 mt-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/330px-Mastercard-logo.svg.png"
+                        alt="Visa" class="max-w-[40px] max-h-[20px]">
+                    <img src="https://banner2.cleanpng.com/20180330/pfw/avifhtfrn.webp" alt="Mastercard"
+                        class="max-w-[40px] max-h-[20px]">
+                    <img src="https://canhme.com/wp-content/uploads/2016/01/Paypal.png" alt="PayPal"
+                        class="max-w-[40px] max-h-[20px]">
                 </div>
             </div>
     
-            <!-- Lower Section -->
-            <div class="border-t border-gray-700 mt-8 pt-6">
-                <div class="container mx-auto flex justify-between items-center px-4 md:px-8">
-                    <p class="text-gray-500 text-sm">Copyright © 2011 Target. All rights reserved. Design by <span
-                            class="text-orange-500">Sheggy</span></p>
-                    <div class="flex space-x-4">
-                        <div class="bg-gray-300 rounded-full p-2">
-                            <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/28-appstore-512.png"
-                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
-                        </div>
-                        <div class="bg-gray-300 rounded-full p-2">
-                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-2253/19/Vector-5-256.png"
-                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
-                        </div>
-                        <div class="bg-gray-300 rounded-full p-2">
-                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Tumblr_glyph_svg-512.png"
-                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
-                        </div>
-                        <div class="bg-gray-300 rounded-full p-2">
-                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Facebook_2_glyph_svg-512.png"
-                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
-                        </div>
-                        <div class="bg-gray-300 rounded-full p-2">
-                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Linkedin_glyph_svg-512.png"
-                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
-                        </div>
-                        <div class="bg-gray-300 rounded-full p-2">
-                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-512.png"
-                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
-                        </div>
-                        <div class="bg-gray-300 rounded-full p-2">
-                            <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/20-rss-256.png"
-                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
-                        </div>
-                    </div>
+            <!-- Get in Touch -->
+            <div>
+                <h4 class="text-white font-bold mb-4">Get in touch</h4>
+                <p>123 Main Street #3</p>
+                <p>San Francisco, CA 94101</p>
+                <p>Phone: (866) 123-4567 ext#1</p>
+                <p>FAX: (866) 123-0000</p>
+                <p>Email: webdesign@sheggy.pl</p>
+            </div>
     
+            <!-- Design Details -->
+            <div>
+                <h4 class="text-white font-bold mb-4">Design details</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore.</p>
+            </div>
     
+            <!-- Target Logo Section -->
+            <div class="flex items-center justify-center lg:justify-end mb-4 lg:mb-32">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRq6VqxKZpE2vh6fCDwsAWMZUjYpo4prS-959JNW88lgqCooOWP"
+                    alt="Target Logo" class="w-10 h-10 mr-2">
+                <div>
+                    <span class="font-bold text-white text-xl">Target</span>
                 </div>
             </div>
-        </footer>
+        </div>
     
+        <!-- Lower Footer Section -->
+        <div class="border-t border-gray-700 mt-8 pt-6">
+            <div
+                class="container mx-auto flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0 px-4 md:px-8">
+                <p class="text-gray-500 text-sm text-center lg:text-left">
+                    Copyright © 2011 Target. All rights reserved. Design by <span class="text-orange-500">Sheggy</span>
+                </p>
+                <div class="flex justify-center lg:justify-end space-x-4">
+                    <div class="bg-gray-300 rounded-full p-2">
+                        <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/28-appstore-512.png"
+                            alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                    </div>
+                    <div class="bg-gray-300 rounded-full p-2">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-2253/19/Vector-5-256.png"
+                            alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                    </div>
+                    <div class="bg-gray-300 rounded-full p-2">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Tumblr_glyph_svg-512.png"
+                            alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                    </div>
+                    <div class="bg-gray-300 rounded-full p-2">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Facebook_2_glyph_svg-512.png"
+                            alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                    </div>
+                    <div class="bg-gray-300 rounded-full p-2">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Linkedin_glyph_svg-512.png"
+                            alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                    </div>
+                    <div class="bg-gray-300 rounded-full p-2">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-512.png"
+                            alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                    </div>
+                    <div class="bg-gray-300 rounded-full p-2">
+                        <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/20-rss-256.png" alt="Social Icon"
+                            class="max-w-[24px] max-h-[24px]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     </body>
     
     </html>
