@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA01-CSS Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body class="bg-gray-100">
+        <!-- Header Section -->
+        <header class="bg-white py-4 shadow-sm">
+            <div class="container mx-auto flex justify-between items-center px-4 md:px-8">
+                <!-- Left Section: Logo and Text -->
+                <div class="flex items-center space-x-2">
+                    <img src="https://img.freepik.com/premium-vector/red-orange-abstract-round-target-logo-icon_95164-3858.jpg?w=740"
+                        alt="Logo" class="w-10 h-10">
+                    <div>
+                        <h1 class="text-xl font-bold text-red-600">Target</h1>
+                        <p class="text-gray-900 text-sm hidden sm:inline">Premium landing page template</p>
+                        <!-- Hidden on very small screens -->
+                    </div>
+                </div>
+        
+                <!-- Right Section: Call Now (hidden on mobile) -->
+                <div class="hidden md:block">
+                    <p class="text-red-500 font-semibold">Call Now! 1-800-123-456</p>
+                </div>
+            </div>
+        
+            <!-- Tagline for mobile (visible on small screens) -->
+            <div class="block sm:hidden px-4">
+                <p class="text-gray-900 text-sm text-center mt-2">Premium landing page template</p>
+            </div>
+        </header>
+
+    
+        <!-- Main Banner Section -->
+        <section class="bg-white py-12">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-8">
+                <!-- Left Section -->
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">The perfect way to convert your traffic into sales</h2>
+                    <p class="text-gray-500 mb-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                        nibh euismod tincidunt ut laoreet dolore
+                        magna aliquam erat volutpat.</p>
+                    <p class="text-gray-500 mb-6">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et
+                        gorilla congolium sic ad nauseum.</p>
+                    <!-- Buttons Section -->
+                    <div class="mt-8 flex justify-center items-center space-x-4">
+                        <button
+                            class="bg-orange-500 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-orange-600 transition-all">
+                            Purchase now!
+                        </button>
+                        <span class="text-gray-500 font-extrabold">or</span>
+                        <button
+                            class="bg-gray-200 text-gray-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-300 transition-all">
+                            Take a tour
+                        </button>
+                    </div>
+                </div>
+                <!-- Right Section (Image) -->
+                <div class="relative">
+                    <img src="https://www.victorialynnweston.com/wp-content/uploads/2012/08/port5.jpg" alt="Placeholder"
+                        class="w-full h-auto">
+    
+                    <!-- Left Arrow Button -->
+                    <div class="absolute top-1/2 left-0 transform -translate-y-1/2 px-3">
+                        <div class="bg-white p-1 rounded-full cursor-pointer shadow-lg">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+    
+                    <!-- Right Arrow Button -->
+                    <div class="absolute top-1/2 right-0 transform -translate-y-1/2 px-3">
+                        <div class="bg-white p-1 rounded-full cursor-pointer shadow-lg">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+        <!-- Features Section -->
+        <section class="py-12 bg-gray-50">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-8">
+                <!-- Feature 1 -->
+                <div class="flex items-center space-x-4">
+                    <img src="/images/f1.png" alt="Placeholder">
+                    <div>
+                        <h3 class="text-xl font-bold">Quick and easy</h3>
+                        <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy
+                            nibh euismod tincidunt ut laoreet dolore magna
+                            aliquam erat volutpat.
+                        </p>
+                    </div>
+                </div>
+                <!-- Feature 2 -->
+                <div class="flex items-center space-x-4">
+                    <img src="/images/f2.png" alt="Placeholder">
+                    <div>
+                        <h3 class="text-xl font-bold">Less risky</h3>
+                        <p class="text-gray-500">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                            molestie consequat, vel illum dolore eu feugiat
+                            nulla facilisis at vero eros et accumsan.
+                        </p>
+                    </div>
+                </div>
+                <!-- Feature 3 -->
+                <div class="flex items-center space-x-4">
+                    <img src="/images/f3.png" alt="Placeholder">
+                    <div>
+                        <h3 class="text-xl font-bold">Optimized</h3>
+                        <p class="text-gray-500">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et
+                            gorilla congolium sic ad nauseum. Souvlaki
+                            ignitus carborundum e pluribus unum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Check out the features Section -->
+        <section class="py-12">
+            <div class="container mx-auto px-4 md:px-8">
+                <h3 class="text-2xl font-bold mb-6">Check out the features</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-40"> <!-- Increased gap to gap-16 -->
+                    <!-- Left Column: Description -->
+                    <div>
+                        <p class="text-gray-500 mb-4">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut
+                            laoreet dolore magna aliquam erat volutpat. Epsum factorial non deposit quid pro quo hic
+                            escorol.
+                            Olypian quarrels et gorilla congolium sic ad nauseum.
+                        </p>
+                        <p class="text-gray-500 mb-4">
+                            Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic
+                            ad
+                            nauseum. Souvalki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Marquee
+                            selectus non provisio incongruous feline nolo contendere. Gratuitous octopus niacin, sodium
+                            glutimate.
+                        </p>
+                    </div>
+                    <!-- Right Column: Feature List -->
+                    <div>
+                        <ul class="space-y-4">
+                            <!-- Feature 1 -->
+                            <li class="flex items-center text-orange-500">
+                                <div class="w-6 h-6 bg-gray-200 rounded-full flex justify-center items-center mr-2">
+                                    <svg class="w-3 h-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </li>
+                            <!-- Feature 2 -->
+                            <li class="flex items-center text-orange-500">
+                                <div class="w-6 h-6 bg-gray-200 rounded-full flex justify-center items-center mr-2">
+                                    <svg class="w-3 h-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>Consectetuer adipiscing elit sed diam</span>
+                            </li>
+                            <!-- Feature 3 -->
+                            <li class="flex items-center text-orange-500">
+                                <div class="w-6 h-6 bg-gray-200 rounded-full flex justify-center items-center mr-2">
+                                    <svg class="w-3 h-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>Nibh euismod tincidunt ut</span>
+                            </li>
+                            <!-- Feature 4 -->
+                            <li class="flex items-center text-orange-500">
+                                <div class="w-6 h-6 bg-gray-200 rounded-full flex justify-center items-center mr-2">
+                                    <svg class="w-3 h-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>Laoreet dolore magna aliquam erat</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    
+        <!-- Screenshots Section -->
+        <section class="py-12 bg-gray-50">
+            <div class="container mx-auto px-4 md:px-8">
+                <h3 class="text-2xl font-bold mb-6">The screenshots</h3>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <img src="https://www.victorialynnweston.com/wp-content/uploads/2012/08/port5.jpg" alt="Screenshot 1">
+                    <img src="https://www.victorialynnweston.com/wp-content/uploads/2012/08/port5.jpg" alt="Screenshot 2">
+                    <img src="https://www.victorialynnweston.com/wp-content/uploads/2012/08/port5.jpg" alt="Screenshot 3">
+                    <img src="https://www.victorialynnweston.com/wp-content/uploads/2012/08/port5.jpg" alt="Screenshot 4">
+                </div>
+            </div>
+        </section>
+    
+        <!-- Testimonials Section -->
+        <section class="py-12">
+            <div class="container mx-auto text-center px-4 md:px-8">
+                <h3 class="text-2xl font-bold mb-6">See what our customers are saying...</h3>
+    
+                <!-- Speech Balloon -->
+                <div class="relative inline-block max-w-4xl">
+                    <div class="bg-white border border-gray-300 p-6 rounded-lg mb-6 inline-block relative">
+                        <blockquote class="text-gray-500 italic mb-4">
+                            "Li Europan lingues es membres del sam famille. Lor separat existentie es un myth. Por scientie,
+                            muscia, sport etc, li tot Europa usa li sam vocabularium."
+                        </blockquote>
+    
+                        <!-- Triangle for speech balloon (tail) -->
+                        <div class="absolute bottom-0 left-6 transform translate-y-full">
+                            <!-- Outer border for the triangle -->
+                            <svg width="22" height="22" viewBox="0 0 22 22" class="absolute" style="z-index: 0;">
+                                <polygon points="0,0 22,0 11,22" fill="#d1d5db" />
+                                <!-- Gray border color (same as the box) -->
+                            </svg>
+                            <!-- Inner white triangle (speech tail) -->
+                            <svg width="20" height="20" viewBox="0 0 20 20" class="relative" style="z-index: 1;">
+                                <polygon points="0,0 20,0 10,20" fill="#ffffff" />
+                                <!-- White background matching the box -->
+                            </svg>
+                        </div>
+                    </div>
+    
+                    <p class="absolute bottom-0 left-6 transform translate-y-full text-gray-700 font-bold mt-2">
+                        Mike Tyson, <span class="text-gray-400 italic">Microsoft</span>
+                    </p>
+                </div>
+    
+                <!-- Buttons Section -->
+                <div class="mt-8 flex justify-center items-center space-x-4">
+                    <button
+                        class="bg-orange-500 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-orange-600 transition-all">
+                        Purchase now!
+                    </button>
+                    <span class="text-gray-500 font-extrabold">or</span>
+                    <button
+                        class="bg-gray-200 text-gray-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-300 transition-all">
+                        Take a tour
+                    </button>
+                </div>
+            </div>
+        </section>
+    
+    
+        <!-- Footer Section -->
+        <footer class="bg-black text-gray-400 py-12">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4 md:px-8">
+                <!-- Payment Method -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Payment method</h4>
+                    <p class="text-gray-400">
+                        Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
+                        coalescent lingues.
+                    </p>
+                    <div class="flex space-x-2 mt-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/330px-Mastercard-logo.svg.png"
+                            alt="Visa" class="max-w-[40px] max-h-[20px]">
+                        <img src="https://banner2.cleanpng.com/20180330/pfw/avifhtfrn.webp" alt="Mastercard"
+                            class="max-w-[40px] max-h-[20px]">
+                        <img src="https://canhme.com/wp-content/uploads/2016/01/Paypal.png" alt="PayPal"
+                            class="max-w-[40px] max-h-[20px]">
+                    </div>
+    
+                </div>
+    
+                <!-- Get in Touch -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Get in touch</h4>
+                    <p>123 Main Street #3</p>
+                    <p>San Francisco, CA 94101</p>
+                    <p>Phone: (866) 123-4567 ext#1</p>
+                    <p>FAX: (866) 123-0000</p>
+                    <p>Email: webdesign@sheggy.pl</p>
+                </div>
+    
+                <!-- Design Details -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Design details</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                        laoreet dolore.</p>
+                </div>
+    
+                <!-- Target Logo Section -->
+                <div class="flex items-center justify-end mb-32">
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRq6VqxKZpE2vh6fCDwsAWMZUjYpo4prS-959JNW88lgqCooOWP"
+                        alt="Target Logo" class="w-10 h-10 mr-2">
+                    <div>
+                        <span class="font-bold text-white text-xl">Target</span>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Lower Section -->
+            <div class="border-t border-gray-700 mt-8 pt-6">
+                <div class="container mx-auto flex justify-between items-center px-4 md:px-8">
+                    <p class="text-gray-500 text-sm">Copyright © 2011 Target. All rights reserved. Design by <span
+                            class="text-orange-500">Sheggy</span></p>
+                    <div class="flex space-x-4">
+                        <div class="bg-gray-300 rounded-full p-2">
+                            <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/28-appstore-512.png"
+                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                        </div>
+                        <div class="bg-gray-300 rounded-full p-2">
+                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-2253/19/Vector-5-256.png"
+                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                        </div>
+                        <div class="bg-gray-300 rounded-full p-2">
+                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Tumblr_glyph_svg-512.png"
+                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                        </div>
+                        <div class="bg-gray-300 rounded-full p-2">
+                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Facebook_2_glyph_svg-512.png"
+                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                        </div>
+                        <div class="bg-gray-300 rounded-full p-2">
+                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Linkedin_glyph_svg-512.png"
+                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                        </div>
+                        <div class="bg-gray-300 rounded-full p-2">
+                            <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-512.png"
+                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                        </div>
+                        <div class="bg-gray-300 rounded-full p-2">
+                            <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/20-rss-256.png"
+                                alt="Social Icon" class="max-w-[24px] max-h-[24px]">
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </footer>
+    
+    </body>
+    
+    </html>
